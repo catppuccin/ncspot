@@ -57,6 +57,10 @@
 
             buildPhase = ''
               whiskers $src/ncspot.tera
+
+              for flavor in frappe latte macchiato mocha; do
+                cp "ncspot-$(flavor)-green.toml" "ncspot-$(flavor).toml";
+              done;
             '';
 
             installPhase = ''
