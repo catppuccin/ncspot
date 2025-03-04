@@ -6,9 +6,9 @@
 </h3>
 
 <p align="center">
-	<a href="https://github.com/catppuccin/ncspot/stargazers"><img src="https://img.shields.io/github/stars/catppuccin/ncspot?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/ncspot/issues"><img src="https://img.shields.io/github/issues/catppuccin/ncspot?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
-	<a href="https://github.com/catppuccin/ncspot/contributors"><img src="https://img.shields.io/github/contributors/catppuccin/ncspot?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
+	<a href="https://github.com/typedrat/catppuccin-ncspot/stargazers"><img src="https://img.shields.io/github/stars/typedrat/catppuccin-ncspot?colorA=363a4f&colorB=b7bdf8&style=for-the-badge"></a>
+	<a href="https://github.com/typedrat/catppuccin-ncspot/issues"><img src="https://img.shields.io/github/issues/typedrat/catppuccin-ncspot?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
+	<a href="https://github.com/typedrat/catppuccin-ncspot/contributors"><img src="https://img.shields.io/github/contributors/typedrat/catppuccin-ncspot?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
 
 <p align="center">
