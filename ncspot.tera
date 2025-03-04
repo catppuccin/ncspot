@@ -1,0 +1,30 @@
+---
+whiskers:
+  version: "^2.5.1"
+  matrix:
+    - flavor
+    - accent
+  filename: "ncspot-{{flavor.identifier}}-{{accent}}.toml"
+
+app: ncspot
+author: typedrat
+---
+{% set accent = flavor.colors[accent] %}
+{% set highlight_bg = base | mix(color = accent, amount=0.5) %}
+[theme]
+background = "#{{base.hex}}"
+primary = "#{{text.hex}}"
+secondary = "#{{teal.hex}}"
+title = "#{{accent.hex}}"
+playing = "#{{green.hex}}"
+playing_bg = "#{{base.hex}}"
+highlight = "#{{text.hex}}"
+highlight_bg = "#{{highlight_bg.hex}}"
+playing_selected = "#{{green.hex}}"
+error = "#{{text.hex}}"
+error_bg = "#{{red.hex}}"
+statusbar = "#{{accent.hex}}"
+statusbar_bg = "#{{surface0.hex}}"
+statusbar_progress = "#{{accent.hex}}"
+cmdline = "#{{accent.hex}}"
+cmdline_bg = "#{{mantle.hex}}"

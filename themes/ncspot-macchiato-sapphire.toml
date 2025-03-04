@@ -1,0 +1,19 @@
+
+
+[theme]
+background = "#24273a"
+primary = "#cad3f5"
+secondary = "#8bd5ca"
+title = "#7dc4e4"
+playing = "#a6da95"
+playing_bg = "#24273a"
+highlight = "#cad3f5"
+highlight_bg = "#50768f"
+playing_selected = "#a6da95"
+error = "#cad3f5"
+error_bg = "#ed8796"
+statusbar = "#7dc4e4"
+statusbar_bg = "#363a4f"
+statusbar_progress = "#7dc4e4"
+cmdline = "#7dc4e4"
+cmdline_bg = "#1e2030"
