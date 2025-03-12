@@ -36,8 +36,7 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Copy the contents of the `.toml` file.
+1. Copy the contents of the flavor of your choice from `themes/`.
 3. Paste it into your `config.toml` file, located in the folder listed as `USER_CONFIGURATION_PATH` when running `ncspot info`. (On Unix-like operating systems, this will usually be `~/.config/ncspot`.)
 
 ## 💝 Thanks to
