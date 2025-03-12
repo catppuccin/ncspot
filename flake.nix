@@ -56,15 +56,15 @@
             };
 
             buildPhase = ''
+              runHook preBuild
               whiskers $src/ncspot.tera
-
-              for flavor in frappe latte macchiato mocha; do
-                cp "ncspot-$flavor-green.toml" "ncspot-$flavor.toml";
-              done;
+              runHook postBuild
             '';
 
             installPhase = ''
-              install -Dm644 -t $out *.toml
+              runHook preInstall
+              install -Dm644 -t $out themes/*.toml
+              runHook postInstall
             '';
           };
         };

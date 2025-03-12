@@ -4,10 +4,7 @@ whiskers:
   matrix:
     - flavor
     - accent
-  filename: "ncspot-{{flavor.identifier}}-{{accent}}.toml"
-
-app: ncspot
-author: typedrat
+  filename: "themes/catppuccin-{{flavor.identifier}}-{{accent}}.toml"
 ---
 {% set accent = flavor.colors[accent] %}
 {% set highlight_bg = base | mix(color = accent, amount=0.5) %}
