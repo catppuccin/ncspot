@@ -1,5 +1,3 @@
-
-
 [theme]
 background = "#eff1f5"
 primary = "#4c4f69"
@@ -10,7 +8,7 @@ playing_bg = "#eff1f5"
 highlight = "#4c4f69"
 highlight_bg = "#88c8d5"
 playing_selected = "#40a02b"
-error = "#4c4f69"
+error = "#eff1f5"
 error_bg = "#d20f39"
 statusbar = "#209fb5"
 statusbar_bg = "#ccd0da"
